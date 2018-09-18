@@ -39,6 +39,7 @@ int main() {
 		cout << "First Number: " << firstNumber << endl << "Second Number: " << secondNumber << endl;
 		cout << "Second to Last Number: " << thirdNumber << endl << "Last Number: " << lastNumber << endl;
 	}
+	file.close();
 	cin >> fileName;
 	return 0;
 }
