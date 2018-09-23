@@ -35,6 +35,11 @@ int main() {
 				file.ignore();
 			}
 		}
+		if ((count % 2) == 1) {
+			int temp = lastNumber;
+			lastNumber = thirdNumber;
+			thirdNumber = temp;
+		}
 		cout << "Count: " << count << endl;
 		cout << "First Number: " << firstNumber << endl << "Second Number: " << secondNumber << endl;
 		cout << "Second to Last Number: " << thirdNumber << endl << "Last Number: " << lastNumber << endl;
